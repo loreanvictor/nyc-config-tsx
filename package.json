@@ -1,0 +1,38 @@
+{
+  "name": "nyc-config-tsx",
+  "version": "0.1.0",
+  "description": "Istanbul.js config for tsx",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loreanvictor/nyc-config-tsx.git"
+  },
+  "keywords": [
+    "istanbul.js",
+    "nyc",
+    "coverage",
+    "tsx",
+    "typescript",
+    "jsx"
+  ],
+  "author": "Eugene Ghanizadeh Khoub <ghanizadeh.eugene@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loreanvictor/nyc-config-tsx/issues"
+  },
+  "homepage": "https://github.com/loreanvictor/nyc-config-tsx#readme",
+  "dependencies": {
+    "@istanbuljs/schema": "^0.1.2"
+  },
+  "peerDependencies": {
+    "nyc": ">=15",
+    "source-map-support": "*",
+    "ts-node": "*"
+  }
+}
